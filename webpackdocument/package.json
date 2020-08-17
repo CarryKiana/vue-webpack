@@ -1,0 +1,36 @@
+{
+  "name": "webpackdocument",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --open --config build/webpack.dev.js --env=development",
+    "build": "webpack --config build/webpack.prod.js --env=production",
+    "common": "webpack --config build/webpack.common.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^1.0.0",
+    "csv-loader": "^3.0.2",
+    "file-loader": "^2.0.0",
+    "friendly-errors-webpack-plugin": "^1.7.0",
+    "html-webpack-plugin": "^3.2.0",
+    "node-notifier": "^5.2.1",
+    "node-sass": "^4.9.3",
+    "papaparse": "^4.5.0",
+    "portfinder": "^1.0.17",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.0",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.1.9",
+    "webpack-merge": "^4.1.4",
+    "xml-loader": "^1.2.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
+}
